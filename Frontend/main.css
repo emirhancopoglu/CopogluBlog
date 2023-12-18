@@ -1,0 +1,267 @@
+#loginbutton {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  font-style: normal;
+  font-weight: bold;
+  border: none;
+  width: 7%;
+  float: right;
+  margin-left: 10px;
+  border: 5px solid rgba(0, 0, 0, 0);
+}
+#loginbutton:before,
+#loginbutton:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+#loginbutton:before {
+  height: 0%;
+  width: 2px;
+}
+#loginbutton:after {
+  width: 0%;
+  height: 2px;
+}
+#loginbutton:hover {
+  background: #04ff00;
+  box-shadow: none;
+}
+#loginbutton:hover:before {
+  height: 100%;
+}
+#loginbutton:hover:after {
+  width: 100%;
+}
+#loginbutton span:hover {
+  color: rgba(2, 126, 251, 1);
+}
+#loginbutton span:before,
+#loginbutton span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+#loginbuttonspan:before {
+  width: 2px;
+  height: 0%;
+}
+#loginbutton span:after {
+  width: 0%;
+  height: 2px;
+}
+#loginbuttonspan:hover:before {
+  height: 100%;
+}
+#loginbutton span:hover:after {
+  width: 100%;
+}
+
+#oturumkapatbutton {
+  background-color: #0088cc;
+  color: #ffffff;
+  width: 6%;
+  float: right;
+  margin-right: -55px;
+  border: 5px solid rgba(0, 0, 0, 0);
+}
+#oturumkapatbutton:hover {
+  background-color: black;
+  font-weight: bold;
+  color: #ffffff;
+  width: 6%;
+  float: right;
+  margin-right: -55px;
+  border: 5px solid rgba(0, 0, 0, 0);
+}
+
+#signupbutton {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  font-style: normal;
+  font-weight: bold;
+  border: none;
+  width: 6%;
+  float: right;
+  margin-left: 10px;
+  border: 5px solid rgba(0, 0, 0, 0);
+}
+#signupbutton:before,
+#signupbutton:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+#signupbutton:before {
+  height: 0%;
+  width: 2px;
+}
+#signupbutton:after {
+  width: 0%;
+  height: 2px;
+}
+#signupbutton:hover {
+  background: #04ff00;
+  box-shadow: none;
+}
+#signupbutton:hover:before {
+  height: 100%;
+}
+#signupbutton:hover:after {
+  width: 100%;
+}
+#signupbuttonspan:hover {
+  color: rgba(2, 126, 251, 1);
+}
+#signupbutton span:before,
+#signupbutton span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: rgba(2, 126, 251, 1);
+  transition: all 0.3s ease;
+}
+#signupbutton span:before {
+  width: 2px;
+  height: 0%;
+}
+#signupbuttonspan:after {
+  width: 0%;
+  height: 2px;
+}
+#signupbutton span:hover:before {
+  height: 100%;
+}
+#signupbutton span:hover:after {
+  width: 100%;
+}
+
+#postbutton {
+  background-color: #0088cc;
+  color: #ffffff;
+  font-style: normal;
+  width: 6%;
+  float: right;
+  margin-left: 10px;
+  border: 10px solid rgba(0, 0, 0, 0);
+  margin-right: 42em;
+  margin-top: 3em;
+}
+
+#postbutton:hover {
+  background: #04ff00;
+  font-weight: bolder;
+  color: black;
+}
+
+#content {
+  background-color: #10141c;
+  color: #ffffff;
+  font-style: normal;
+  width: 98%;
+  height: 100%;
+
+  margin-left: 10px;
+  border: 10px solid rgba(0, 0, 0, 0);
+  margin-right: 30em;
+  margin-top: 8rem;
+}
+
+#main {
+  background-color: #10141c;
+}
+html {
+  background-color: #10141c;
+}
+
+#kenarcubugu {
+  width: 150px;
+  height: 150px;
+
+  margin-left: 28rem;
+}
+
+#buttons {
+  margin-right: 40rem;
+  margin-top: -4.8rem;
+}
+#twobuttons {
+  margin-right: -9rem;
+}
+
+#banner {
+  height: 4em;
+  left: 0;
+  display: block;
+}
+
+#welcome-message {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 22px;
+  margin-left: 60%;
+  margin-top: 2%;
+}
+
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+#linkedinpng {
+  width: 50px;
+  height: 50px;
+}
+
+#githubpng {
+  width: 50px;
+  height: 50px;
+}
+
+#instagrampng {
+  width: 50;
+  height: 50px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#uyelerbutton {
+  background-color: #0088cc;
+  color: #ffffff;
+  width: 7%;
+  height: auto;
+  position: relative;
+  margin-right: 50px;
+  margin-top: 3em;
+  float: right;
+  border: 10px solid rgba(0, 0, 0, 0);
+  margin-left: 50px;
+}
+
+#uyelerbutton:hover {
+  background: #04ff00;
+  font-weight: bolder;
+  color: black;
+}

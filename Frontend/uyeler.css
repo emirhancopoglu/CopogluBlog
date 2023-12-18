@@ -1,0 +1,21 @@
+* {
+  font-family: "JetBrains Mono", monospace;
+}
+
+ul {
+  list-style: none; /* Liste işaretlerini gizler */
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  background-color: #10141c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-family: "JetBrains Mono", monospace;
+}
