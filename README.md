@@ -36,4 +36,6 @@ Spring Boot kullanılarak backend'i yazılmış basit bir blog web sitesi.
 
 #
 * Backend kısmında comment api yazıldı ancak front end tarafına geçirilmedi.
+* Postgresql kullanıldı.
+* JpaRepository kullanıldı. 
   
